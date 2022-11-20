@@ -1,3 +1,5 @@
+//------------------backed to store state of all the azure services
+
 terraform {
     backend "azurerm" {
         resource_group_name ="state"

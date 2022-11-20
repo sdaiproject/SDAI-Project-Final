@@ -1,3 +1,5 @@
+//----------------Logic app variables---------------
+
 variable "logicapp_name" {
     type =string
     description ="logic app name"

@@ -1,3 +1,5 @@
+//---------------------SQL database variables----------------
+
 variable "sqlserver_name" {
     type =string
     description ="sql server name"

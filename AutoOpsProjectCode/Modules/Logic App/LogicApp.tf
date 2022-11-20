@@ -1,3 +1,5 @@
+//-------------------Logic app workflow-----------------------
+
 resource "azurerm_logic_app_workflow" "example" {
   name                = var.logicapp_name     
   location            = var.location        

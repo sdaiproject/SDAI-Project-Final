@@ -1,3 +1,5 @@
+//-----------------------SQL server----------------------
+
 resource "azurerm_sql_server" "tf_sql_server" {
   name                         = var.sqlserver_name    
   resource_group_name          = var.resource_group_name
@@ -10,6 +12,7 @@ resource "azurerm_sql_server" "tf_sql_server" {
     environment = var.tags
   }
 }
+//-----------------------Storage account----------------------
 
 resource "azurerm_storage_account" "tf_storage_account" {
   name                     = var.storage_account       
@@ -18,6 +21,8 @@ resource "azurerm_storage_account" "tf_storage_account" {
   account_tier             = var.account_tier     
   account_replication_type = var.acc_tier           
 }
+
+//-----------------------------SQL database---------------------
 
 resource "azurerm_sql_database" "tf_sql_database" {
   name                = var.sql_database_name       

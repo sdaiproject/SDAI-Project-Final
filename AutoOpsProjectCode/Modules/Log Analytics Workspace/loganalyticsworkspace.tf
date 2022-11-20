@@ -1,3 +1,5 @@
+//Log analytics workspace to store logs
+
 resource "azurerm_log_analytics_workspace" "tf_log_analytics_workspace" {
   name                = var.log_analytics_name          
   location            = var.location                 

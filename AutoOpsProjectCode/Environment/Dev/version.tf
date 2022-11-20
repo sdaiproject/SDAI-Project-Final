@@ -1,3 +1,5 @@
+//----------terraform provider and version-------------
+
 terraform {
   required_providers {
     azurerm = {

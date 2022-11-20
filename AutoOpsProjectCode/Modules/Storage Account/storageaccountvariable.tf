@@ -1,3 +1,4 @@
+//--------------------storage account variables-----------------------------
 variable "storageaccount_name" {
     type =string
     description ="storage account name"

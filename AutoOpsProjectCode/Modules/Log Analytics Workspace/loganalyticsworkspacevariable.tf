@@ -1,3 +1,5 @@
+//-------------------Log analytics workspace variables for storing logs---------------
+
 variable "log_analytics_name" {
     type =string
     description ="log analytics name"

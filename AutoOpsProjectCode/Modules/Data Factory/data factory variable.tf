@@ -1,3 +1,5 @@
+//-------------------data factory variables-------------------
+
 variable "data_factory_name" {
     type =string
     description ="data factory name"

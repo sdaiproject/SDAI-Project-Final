@@ -1,3 +1,5 @@
+//---------------Storage Account---------------------------
+
 resource "azurerm_storage_account" "tf_storage_account" {
   name                     = var.storageaccount_name 
   resource_group_name      = var.resource_group_name    
